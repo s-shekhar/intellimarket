@@ -1,19 +1,19 @@
 /*
-
+   
     Template Name : Rolling - Freelancer Portfolio Template
     Author : UiPasta Team
     Website : http://www.uipasta.com/
     Support : http://www.uipasta.com/support/
-
-
+	
+	
 */
 
 
 
 /*
-
+   
    Table Of Content
-
+   
    1. Global Style
    2. Preloader
    3. Home Section and Navigation Menu
@@ -30,7 +30,7 @@
   14. Scroll To Top
   15. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
   16. UiPasta Credit
-
+ 
 
 */
 
@@ -988,15 +988,15 @@ ul.portfolio li.active {
     .about-section img {
         position: inherit;
      }
-
+	 
      .call-to-action h2 {
         font-size: 20px;
 	 }
-
+	 
      .space-set {
         margin-top: 80px;
 	 }
-
+	 
      .footer-section p {
          text-align: center !important;
      }
@@ -1077,25 +1077,25 @@ ul.portfolio li.active {
          line-height: 40px;
          font-size: 20px;
       }
-
+	  
      .section-title h2 {
          font-size: 16px;
        }
-
+	   
       .section-title h2 {
          font-weight: 500;
          width: 200px;
      }
-
+	 
       .section-title p {
          font-weight: 300;
          font-size: 12px;
       }
-
+	  
      .home-section-background h2 {
          font-size: 18px;
       }
-
+	  
      .home-section-background p {
          font-size: 12px;
       }
@@ -1108,11 +1108,11 @@ ul.portfolio li.active {
           font-weight: 600;
           font-size: 10px;
 	  }
-
+	  
      .button-style:before {
           display: none;
 	   }
-
+	
 }
 
 
@@ -1466,22 +1466,4 @@ ul.portfolio li.active {
 
 .uipasta-credit a:hover {
     color: #ffffff;
-}
-
-.formip{
-  position: relative;
-  left: 12%;
-  width: 900px;
-}
-.formipbtn{
-  position: relative;
-  left: 35%;
-  width: 300px;
-  background-color: black;
-}
-
-.formnew{
-  border-radius: 30px;
-  height: 50px;
-  border: 2px solid black;
 }
