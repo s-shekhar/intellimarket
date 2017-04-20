@@ -90,12 +90,12 @@
                                 </div>
                                 <div class="navbar-collapse collapse" >
                                     <ul class="nav navbar-nav navbar-right" style=" background-color: black">
-                                        <li class="active"><a class="smoth-scroll" href="index.php">Home <div class="ripple-wrapper"></div></a>
+                                        <li class="active"><a class="smoth-scroll" href="../index.html">Home <div class="ripple-wrapper"></div></a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="index.php#portfolio" >Predicting the future</a>
+                                        <li><a class="smoth-scroll" href="../index.html#portfolio" >Predicting the future</a>
                                         </li>
 
-                                        <li><a class="smoth-scroll" href="index.php#testimonials">Testimonial</a>
+                                        <li><a class="smoth-scroll" href="../index.html#testimonials">Testimonial</a>
                                         </li>
 
                                     </ul>
@@ -135,7 +135,7 @@
               		$stock_data = get_stock_data_from_yahoo_finance_pv($symbol, $e);
 
               	 }else{
-              	 	redirect_to("index.php");
+              	 	redirect_to("../index.html");
               	 }
 
               ?>

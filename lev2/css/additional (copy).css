@@ -1,0 +1,44 @@
+.place{
+		  position:relative;
+		  right:180px;
+		  width:1500px;
+		  height:1000px;
+	  }
+	  .adjust{
+		  float: right;
+		  position:relative;
+		  top:-500px;
+	  }
+	  .tablee{
+		  position:relative;
+		  left:-200px;
+	  }
+	  .position{
+		  position:relative;
+		  left:30px;
+	  }
+	  .pos{
+		 position:relative;
+		 left:200px;
+	  }
+	  .center{
+		  position:relative;
+		  left:400px;
+	  }
+	  .img{
+		  position:relative;
+		  left:150px;
+	  }
+	  .Image{
+       position:relative;
+	   left:350px;
+	  }
+	   .mid{
+		  position:relative;
+		  left:500px;
+	  }
+	  .small{
+		  height:60px;
+		  width:80px;
+	  }
+	  
