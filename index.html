@@ -46,11 +46,11 @@
 
 
 
-	<!-- Preloader Start
+	<!-- Preloader Start -->
     <div id="preloader">
 	  <div class="loader"></div>
     </div>
-   Preloader End -->
+   <!-- Preloader End -->
 
 
 
@@ -82,15 +82,13 @@
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a class="smoth-scroll" href="#home">Home <div class="ripple-wrapper"></div></a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#begin">About</a>
+                                        <li><a class="smoth-scroll" href="#begin">Get Current Values</a>
                                         </li>
                                         <li><a class="smoth-scroll" href="#prediction">Prediction</a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#testimonials">Testimonial</a>
-                                        </li>
                                         <li><a class="smoth-scroll" href="#about">About Project</a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#contact">Contact</a>
+                                        <li><a class="smoth-scroll" href="#testimonials">Testimonial</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -227,6 +225,35 @@
         </section>
        <!-- Portfolio End -->
 
+
+       <br><br><br><br><br><br><br><br><br>
+       <!-- About -->
+         <center>
+         <h1 style="text-align:center;">ABOUT</h1>
+         </center>
+         <section id="about" style="background-color:#F9F9F9 !important;">
+         <h3>
+      <br><br><br><br><br><br>
+        <div class="row">
+        In our project, we analyzed a year’s worth of stock portfolio for a selected group of
+        companies and apply moving averages and Markov Chains to the data in hopes to predict
+        the stock prices for the near future. The first thing we did was to apply moving averages to
+        create an approximate evaluation of the data. In order to find moving averages, we first had
+        to apply a moving average with an increment of three. This involves taking the sum of three
+        days of stock and then dividing it by three. However, one can only do this starting at day
+        three, because there was enough data to actually create a moving average. We eventually
+        had a data set that included a moving average price and a closing price. We then needed to
+        find a difference data set to apply Markov Chains to. We took the difference of the closing
+        price and the moving average price. These differences were going to be what we applied
+        Markov Chains to.
+      </div>
+        <br><br><br><br><br><br>
+      </h3>
+
+       </section>
+       <!-- About end-->
+       <br><br><br><br><br><br><br><br><br>
+
      <!-- Testimonial Start -->
      <section id="testimonials" class="testimonial-section section-space-padding">
         <div class="container">
@@ -265,10 +292,6 @@
         </div>
     </section>
     <!-- Testimonial End -->
-
-
-
-
 
 
 
